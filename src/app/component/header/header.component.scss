@@ -1,13 +1,4 @@
-/*-------SCSS File ---------
-*
-*purpose:scss for the header Employee Payroll form
-*
----------------------------*/
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
+// Header component
 .header {
     padding: 15px 0;
     background-color: #fff;
@@ -20,7 +11,6 @@
     align-items: center;
     border: 0px solid green;
 }
-
 .logo-content {
     display: flex;
     flex-direction: row;
@@ -29,14 +19,14 @@
     width: 80%;
 }
 
-.logo-content-img {
-    border: solid 0px #42515f;
-}
-
 .logo-text-content {
     display: flex;
     flex-direction: column;
 }
+
+// .logo-content-img {
+//     border: solid 0px #42515f;
+// }
 
 .emp-text {
     font: normal normal bold 20px/25px Montserrat;
@@ -46,6 +36,17 @@
     text-transform: capitalize;
 }
 
+
 .emp-payroll {
     color: #42515f;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 25px;
 }
